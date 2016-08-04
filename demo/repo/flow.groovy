@@ -32,7 +32,7 @@ node {
 
     // Let us tag and push the newly built image. Will tag using the image name provided
     // in the 'docker.build' call above (which included the build number on the tag).
-    pcImg.push();
+    //pcImg.push();
 
     stage 'Test Image'
     // Spin up a Maven + Xvnc test container, linking it to the petclinic app container
